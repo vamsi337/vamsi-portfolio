@@ -56,11 +56,19 @@
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     },
     {
-        "name": "WordPress",
-        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
-    },
-    {
         "name": "Adobe Photoshop",
         "icon": "https://img.icons8.com/color/48/ffffff/adobe-photoshop.png"
+    },
+    {
+        "name":"Jenkins",
+        "icon":"https://img.icons8.com/?size=100&id=39292&format=png&color=000000"
+    },
+    {
+        "name":"Linux",
+        "icon":"https://img.icons8.com/?size=100&id=17842&format=png&color=000000"
+    },
+    {
+        "name":"AWS",
+        "icon":"https://img.icons8.com/?size=100&id=33039&format=png&color=000000"
     }       
 ]
