@@ -74,7 +74,6 @@ header {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 section {
-  min-height: 100vh;
   padding: 2rem 9%;
 }
 .heading {
@@ -460,7 +459,7 @@ header .navbar ul li a:hover {
 
 /* skills section starts */
 .skills {
-  min-height: 90vh;
+  min-height: 20vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
@@ -476,14 +475,17 @@ header .navbar ul li a:hover {
   padding: 2rem;
   width: 90%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
+/* container that holds each skill card (e.g., .bar) */
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  flex-wrap: wrap;
-  gap: 1.8rem;
+  /* Each item is at least 160px wide; beyond that, items stretch to fill equally */
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.2rem;
+  align-items: stretch;   /* make heights consistent */
 }
+
 .skills .container .bar {
   margin-bottom: 15px;
   padding: 10px;
